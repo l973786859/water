@@ -63,7 +63,7 @@ header a img{
 }
 .narrate{
     padding: 0 0.23rem;
-    height: 1.54rem;
+    overflow: hidden;
 }
 h1{
     height: 0.34rem;
@@ -185,6 +185,7 @@ h1{
 }
 .end-header{
     margin: 0.42rem 0;
+    height: 0.36rem;
 }
 .end-header h1{
     font-size: 0.32rem;
@@ -222,6 +223,46 @@ h1{
     width: 0.11rem;
     height: 0.18rem;
 }
+.end-two{
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+.end-two-left{
+    width: 0.85rem;
+    height: 0.85rem;
+    background-color: #ffffff;
+    border: solid 0.04rem #fefefe;
+    float: left;
+}
+.end-two-left img{
+    width: 0.85rem;
+    height: 0.85rem;
+}
+.end-two-right{
+    float: right;
+    overflow: hidden;
+}
+.end-two-right div{
+    overflow: hidden;
+    margin-bottom: 0.23rem;
+}
+.end-two-right div span:nth-child(1){
+    width: 0.6rem;
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #cfcfcf;
+    margin-right: 0.44rem;
+}
+.end-two-right div img{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.end-two-right div span:nth-child(7){
+    font-size: 0.22rem;
+    color: #9ed5ff;
+    float: right;
+
+}
 .end-two-right > span:nth-child(2){
     width: 100%;
     font-size: 0.26rem;
@@ -235,5 +276,94 @@ h1{
     font-size: 0.22rem;
     color: #000000;
     opacity: 0.3;
+    margin-bottom: 0.3rem;
 
+}
+.end-two-right > img{
+    width: 1.8rem;
+    height: 1rem;
+}
+.the-end ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.the-end ul li{
+    width: 2rem;
+    height: 3.2rem;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+
+}
+.the-end ul li img{
+    width: 1.3rem;
+    height: 1.38rem;
+    margin-bottom: 0.36rem;
+}
+.the-end ul span:nth-child(2){
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0.2rem;
+}
+.the-end ul span:nth-child(3){
+    font-size: 0.28rem;
+    color: #fbb548;
+}
+footer{
+    width: 7.5rem;
+    height: 1.08rem;
+}
+footer ul{
+    width: 7.5rem;
+    height: 1.08rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+footer ul li{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+footer li:nth-child(1) img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+footer li:nth-child(2) img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+footer li:nth-child(3) img{
+    width: 1.96rem;
+    height: 0.6rem;
+}
+footer li:nth-child(4) img{
+    width: 1.96rem;
+    height: 0.6rem;
+}
+footer li:nth-child(1) span{
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    opacity: 0.6;
+
+}
+footer li:nth-child(2) span{
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #2ed977;
+    opacity: 0.6;
+}
+footer li:nth-child(3) span{
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+footer li:nth-child(4) span{
+    font-size: 0.24rem;
+    color: #ffffff;
 }
