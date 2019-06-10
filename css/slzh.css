@@ -94,17 +94,72 @@ nav{
 .one{
     margin-bottom: 0.66rem;
 }
-.ome .left {
+.one .left {
     width: 1.74rem;
     height: 1.74rem;
     margin-right: 0.54rem;
+    float: left;
 
 }
-.ome .left img {
+.one .left img {
     width: 1.74rem;
     height: 1.74rem;
 
 }
 .one .right{
+    height: 1.74rem;
+    float: left;
+    margin-bottom: 0.18rem;
+    overflow: hidden;
+}
+.one .right h2{
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.right-one ul{
+    padding-left: 0;
+}
+.right-one li{
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+    margin-right: 0.65rem;
+    padding-left: 0.12rem;
+    color: #000000;
+    opacity: 0.3;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+.right-one li::before{
+    content: ' ';
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    left: 0;
+    bottom: 0.1rem;
+}
+.right-one li span{
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.right-two div{
+    float: left;
+    width: 1.2rem;
+    height: 0.35rem;
+    margin-right: 0.1rem;
+    background-color: #3babff;
+    border-radius: 0.18rem;
+    opacity: 0.1;
+}
+.right-two span{
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    opacity: 0;
+    text-align: center;
 
 }
