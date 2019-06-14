@@ -1,0 +1,296 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    list-style: none;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid rgba(41, 167, 255, 0.13);
+    margin-bottom: 0.24rem;
+}
+header a{
+    width: 0.25rem;
+    height: 0.25rem;
+    padding: 0.23rem 0;
+}
+header a img{
+    width: 0.25rem;
+    color: #36a8fe;
+}
+header span{
+    display: inline-block;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    margin: 0.27rem 0;
+    line-height: 0.4rem;
+}
+nav{
+    width: 7.1rem;
+    height: 0.6rem;
+    margin-left: 0.18rem;
+    margin-bottom: 0.25rem;
+    background-color: #ebf7ff;
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+}
+nav p{
+    margin: 0.18rem 0 0.18rem 0.3rem;
+    font-size: 0.24rem;
+    float: left;
+}
+nav .sousuo{
+    width: 0.8rem;
+    height: 0.44rem;
+    margin: 0.08rem 0.09rem;
+    float: right;
+    background-color: #a4e0bd;
+    border-radius: 21px;
+}
+nav .sousuo img {
+    width: 0.32rem;
+    height: 0.32rem;
+    margin: 0.06rem 0.24rem;
+}
+.xuanze{
+    margin: 0 1.5rem 0.22rem 1.5rem;
+    width: 4.5rem;
+    height: 0.52rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xuanze div{
+    width: 1.31rem;
+    height: 0.52rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.52rem;
+    background-color: rgba(59, 172, 254, 0.1);
+    border-radius: 0.26rem;
+    color: rgb(59, 172, 254);
+}
+.xuanze div:nth-child(3){
+    color: #FFFFFF;
+    background-color: rgb(59, 172, 254);
+}
+body > img {
+    width: 7.02rem;
+    height: 2.55rem;
+    margin: 0 0.24rem 0.4rem 0.24rem;
+}
+.middle{
+    width: 7.02rem;
+    overflow: hidden;
+    margin: 0 0.24rem 0.56rem 0.24rem;
+    position: relative;
+
+
+}
+.middle span:nth-child(1){
+    font-size: 0.32rem;
+    color: #4f5b64;
+    margin-left: 0.2rem;
+    float: left;
+    position: relative;
+}
+.middle span:nth-child(1)::before{
+    content: ' ';
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.1rem;
+    top: 0.2rem;
+}
+.middle span:nth-child(2){
+    font-size: 0.32rem;
+    color: #34da87;
+    float: left;
+}
+.middle span:nth-child(3){
+    font-size: 0.22rem;
+    color: #3bacfe;
+    float: right;
+    margin-right: 0.3rem;
+}
+.middle img:nth-child(5){
+    width: 0.1rem;
+    height: 0.18rem;
+    position: absolute;
+    right: 0.05rem;
+    top: 0.05rem;
+}
+.middle img:nth-child(4){
+    width: 0.1rem;
+    height: 0.18rem;
+    position: absolute;
+    right: 0.15rem;
+    top: 0.05rem;
+    color: #36a8fe;
+}
+.middle-two{
+    width: 7.02rem;
+    margin: 0 0.24rem 0.52rem 0.24rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.middle-two > div{
+    width: 3.25rem;
+
+}
+.one{
+    padding: 0.15rem 1rem 0.44rem 0.72rem;
+    width: 1.53rem;
+    position: relative;
+}
+.one div{
+    width: 0.54rem;
+    height: 0.3rem;
+    border-radius: 0.15rem;
+    background: rgba(55, 223, 116, 0.75);
+    color: #FFFFFF;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.3rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.one img{
+    width: 1.53rem;
+    height: 1.61rem;
+}
+.two{
+    overflow: hidden;
+}
+.two span:nth-child(1){
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+    float: left;
+}
+.two span:nth-child(2){
+    font-size: 0.28rem;
+    color: #fbb548;
+    float: right;
+    margin-right: 0.07rem;
+}
+.three{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.5;
+}
+.four{
+    margin-top: 0.35rem;
+    padding: 0;
+    margin-bottom: 0.2rem;
+    list-style: none;
+    overflow: hidden;
+}
+.four li:nth-child(1){
+    float: left;
+    margin-left: 0.14rem;
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.3;
+    text-align: center;
+}
+.four li span{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    float: right;
+}
+.four li:nth-child(2){
+    float: right;
+    margin-right: 0.14rem;
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.four li{
+    position: relative;
+}
+.four li:before{
+    content: ' ';
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.08rem;
+    top: 0.16rem;
+}
+.five{
+    overflow: hidden;
+}
+.five div{
+    width: 1.21rem;
+    height: 0.35rem;
+    margin-right: 0.09rem;
+    float: left;
+    background-color: rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.35rem;
+    color: #36a8fe;
+}
+.end ul{
+    height:0.98rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.end ul li {
+    height: 0.98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.end ul li a{
+    height: 0.6rem;
+    text-decoration: none;
+}
+.end ul li a img{
+    width: 0.5rem;
+    height: 0.42rem;
+}
+.end ul li p{
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    color: #9ddcff;
+    line-height: 0.4rem;
+}

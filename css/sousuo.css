@@ -1,0 +1,132 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    list-style: none;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid rgba(41, 167, 255, 0.13);
+    margin-bottom: 0.24rem;
+}
+header a{
+    width: 0.25rem;
+    height: 0.25rem;
+    padding: 0.23rem 0;
+}
+header a img{
+    width: 0.25rem;
+    color: #36a8fe;
+}
+header span{
+    display: inline-block;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    margin: 0.27rem 0;
+    line-height: 0.4rem;
+}
+nav{
+    width: 7.1rem;
+    height: 0.6rem;
+    margin-left: 0.18rem;
+    margin-bottom: 0.25rem;
+    background-color: #ebf7ff;
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+}
+nav p{
+    margin: 0.18rem 0 0.18rem 0.3rem;
+    font-size: 0.24rem;
+    float: left;
+}
+nav .sousuo{
+    width: 0.8rem;
+    height: 0.44rem;
+    margin: 0.08rem 0.09rem;
+    float: right;
+    background-color: #a4e0bd;
+    border-radius: 21px;
+}
+nav .sousuo img {
+    width: 0.32rem;
+    height: 0.32rem;
+    margin: 0.06rem 0.24rem;
+}
+.middle{
+    width: 7.02rem;
+    overflow: hidden;
+    margin: 0.44rem 0.24rem 0.33rem 0.24rem;
+    position: relative;
+
+}
+.middle span:nth-child(1){
+    font-size: 0.32rem;
+    color: #41b2fc;
+    margin-left: 0.2rem;
+    float: left;
+    position: relative;
+}
+.middle span:nth-child(1)::before{
+    content: ' ';
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.1rem;
+    top: 0.2rem;
+}
+.middle span:nth-child(2){
+    font-size: 0.32rem;
+    color: #4f5b64;
+    float: left;
+}
+.one{
+    margin: 0 0.24rem 0.7rem 0.24rem;
+    overflow: hidden;
+}
+.one a{
+    text-decoration: none;
+    overflow: hidden;
+}
+.one div{
+    width: 1.5rem;
+    background: rgba(59, 171, 255,0.1);
+    border-radius: 0.24rem;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    text-align: center;
+    font-size: 0.26rem;
+    color: #36a8fe;
+    float: left;
+    margin-right: 0.2rem;
+    margin-bottom: 0.24rem;
+}

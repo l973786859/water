@@ -1,0 +1,289 @@
+@import "base.css";
+html {
+    font-size: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 7.5rem;
+    font-size: 16px;
+    list-style: none;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid rgba(41, 167, 255, 0.13);
+    margin-bottom: 0.24rem;
+}
+header a{
+    width: 0.25rem;
+    height: 0.25rem;
+    padding: 0.23rem 0;
+}
+header a img{
+    width: 0.25rem;
+    color: #36a8fe;
+}
+header span{
+    display: inline-block;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    margin: 0.27rem 0;
+    line-height: 0.4rem;
+}
+nav{
+    overflow: hidden;
+    margin: 0 0.24rem;
+}
+.begin{
+    padding: 0 2.97rem;
+}
+.begin img{
+    width: 1.08rem;
+    height: 0.8rem;
+}
+nav p{
+    font-size: 0.26rem;
+    text-align: center;
+    color: #4f5b64;
+}
+nav p:nth-child(2){
+    margin: 0.4rem 0 0.2rem 0;
+    position: relative;
+}
+nav p:nth-child(2)::before{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 2.3rem;
+    top: 0.18rem;
+}
+nav p:nth-child(2)::after{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    border-radius: 0.03rem;
+    position: absolute;
+    right: 2.3rem;
+    top: 0.18rem;
+}
+nav p:nth-child(2) b{
+    color: #32d796;
+}
+nav p:nth-child(3){
+    margin-bottom: 0.52rem;
+}
+nav p:nth-child(3) b{
+    color: #ffd541;
+}
+.end1{
+    overflow: hidden;
+    padding: 0 1.24rem;
+}
+.end1 div{
+    width: 1.96rem;
+    height: 0.6rem;
+    background: rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    font-size: 0.2rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.6rem;
+    float: left;
+}
+.end1  a div{
+    background: #3bacfe;
+    margin-left: 0.62rem;
+}
+.middle{
+    width: 7.02rem;
+    overflow: hidden;
+    margin: 1.1rem 0.24rem 0.56rem 0.24rem;
+    position: relative;
+
+}
+.middle span:nth-child(1){
+    font-size: 0.32rem;
+    color: #4f5b64;
+    margin-left: 0.2rem;
+    float: left;
+    position: relative;
+}
+.middle span:nth-child(1)::before{
+    content: ' ';
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.1rem;
+    top: 0.2rem;
+}
+.middle span:nth-child(2){
+    font-size: 0.32rem;
+    color: #34da87;
+    float: left;
+}
+.middle-two{
+    width: 7.02rem;
+    margin: 0 0.24rem 0.52rem 0.24rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.middle-two > div{
+    width: 3.25rem;
+}
+.one{
+    padding: 0.15rem 1rem 0.44rem 0.72rem;
+    width: 1.53rem;
+    position: relative;
+}
+.one div{
+    width: 0.54rem;
+    height: 0.3rem;
+    border-radius: 0.15rem;
+    background: rgba(55, 223, 116, 0.75);
+    color: #FFFFFF;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.3rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.one img{
+    width: 1.53rem;
+    height: 1.61rem;
+}
+.two{
+    overflow: hidden;
+}
+.two span:nth-child(1){
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+    float: left;
+}
+.two span:nth-child(2){
+    font-size: 0.28rem;
+    color: #fbb548;
+    float: right;
+    margin-right: 0.07rem;
+}
+.three{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.5;
+}
+.four{
+    margin-top: 0.35rem;
+    padding: 0;
+    margin-bottom: 0.2rem;
+    list-style: none;
+    overflow: hidden;
+}
+.four li:nth-child(1){
+    float: left;
+    margin-left: 0.14rem;
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.3;
+    text-align: center;
+}
+.four li span{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    float: right;
+}
+.four li:nth-child(2){
+    float: right;
+    margin-right: 0.14rem;
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.four li{
+    position: relative;
+}
+.four li:before{
+    content: ' ';
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.08rem;
+    top: 0.16rem;
+}
+.five{
+    overflow: hidden;
+}
+.five div{
+    width: 1.21rem;
+    height: 0.35rem;
+    margin-right: 0.09rem;
+    float: left;
+    background-color: rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.35rem;
+    color: #36a8fe;
+}
+.end ul{
+    height:0.98rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.end ul li {
+    height: 0.98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.end ul li a{
+    height: 0.6rem;
+    text-decoration: none;
+}
+.end ul li a img{
+    width: 0.5rem;
+    height: 0.42rem;
+}
+.end ul li p{
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    color: #9ddcff;
+    line-height: 0.4rem;
+}

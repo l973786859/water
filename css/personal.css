@@ -1,0 +1,182 @@
+@import "base.css";
+html {
+    font-size: 100px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid rgba(41, 167, 255, 0.13);
+    margin-bottom: 0.24rem;
+}
+header a{
+    width: 0.25rem;
+    height: 0.25rem;
+    padding: 0.23rem 0;
+}
+header a img{
+    width: 0.25rem;
+    color: #36a8fe;
+}
+header span{
+    display: inline-block;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    margin: 0.27rem 0;
+    line-height: 0.4rem;
+}
+.user{
+    width: 6.4rem;
+    height: 1.85rem;
+    margin: 0 0.55rem;
+}
+.user a img{
+    width: 1.17rem;
+    height: 1.17rem;
+    margin: 0.34rem 0 0.34rem 0.28rem;
+    float: left;
+}
+.user div{
+    float: left;
+    margin-left: 0.26rem;
+    padding-top: 0.62rem;
+}
+.user div p:nth-child(1){
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 0.22rem;
+}
+.user div p:nth-child(2){
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.4;
+}
+.user div p:nth-child(2) img{
+    width: 0.28rem;
+    height: 0.2rem;
+}
+.user > p{
+    float: left;
+    margin-left: 2rem;
+    margin-top: 0.67rem;
+    font-size: 0.2rem;
+    color: #3bacfe;
+}
+.balance{
+    margin: 0.78rem 1.18rem 0.6rem 1.18rem;
+}
+.balance ul{
+    display: flex;
+    justify-content: space-between;
+}
+.balance ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.balance ul li span:nth-child(1){
+    font-size: 0.46rem;
+}
+.balance ul li span:nth-child(2){
+    font-size: 0.24rem;
+    color: #8e9397;
+}
+.balance ul li:nth-child(1) span:nth-child(1){
+    color: rgb(41, 167, 255);
+}
+.balance ul li:nth-child(2) span:nth-child(1){
+    color: rgb(46, 213, 147);
+}
+.balance ul li:nth-child(3) span:nth-child(1){
+    color: rgb(255, 213, 53);
+}
+.end1{
+    margin-left: 0.8rem;
+}
+.end1 li{
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+.end1 li::before{
+    content: ' ';
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.2rem;
+    top: 0.2rem;
+}
+.end1 li a{
+    color: #000000;
+    opacity: 0.7;
+}
+.end1 b{
+    font-size: 0.36rem;
+    margin-right: 0.5rem;
+    line-height: 0.4rem;
+    color: #fe624e;
+    float: right;
+}
+.end ul{
+    height:0.98rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.end ul li {
+    height: 0.98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.end ul li a{
+    height: 0.6rem;
+    text-decoration: none;
+}
+.end ul li a img{
+    width: 0.5rem;
+    height: 0.42rem;
+}
+.end ul li p{
+    font-size: 0.24rem;
+    letter-spacing: 1px;
+    color: #9ddcff;
+    line-height: 0.4rem;
+}
