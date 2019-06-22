@@ -8,6 +8,13 @@
     <meta content="telephone=no" name="format-detection">
     <title>首页</title>
     <link rel="stylesheet" href="./css/page1.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style>
+        .swiper-container {
+            width: 7.5rem;
+            height: 3.07rem;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -25,9 +32,20 @@
         </a>
     </div>
 </nav>
-<div class="img1">
-    <img src="./image/banner.png" alt="">
-</div>
+    <div class="swiper-container img1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./image/banner.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/banner.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/banner.png" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
 <div class="gn">
     <ul>
         <li><a href="./slzh.html"><img src="./image/l1.png" alt="">
@@ -78,5 +96,31 @@
         </a></li>
     </ul>
 </div>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        //direction: 'vertical', // 垂直切换选项
+        loop: true, // 循环模式选项
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    })
+</script>
 </body>
 </html>
